@@ -45,6 +45,11 @@ function App() {
          */
       }
 
+      {
+        /**
+         * Remova o trecho abaixo quando inserir o conteúdo da resposta acima
+         */
+      }
       <GameBanner />
       <GameBanner />
       <GameBanner />
