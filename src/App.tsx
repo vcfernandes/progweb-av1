@@ -21,6 +21,8 @@ function App() {
 
   useEffect(() => {
     fetch('http://localhost:3333/games').then(response => response.json()).then(data => {
+
+    setGames(data)
       /**
        * (1pt) atribua o conteúdo 'data' para a variável games
        */
