@@ -13,6 +13,8 @@ interface Game {
   }
 }
 function App() {
+
+  const [games ,setGames] = useState([]);
   /**
    * (2pt) Crie uma variável de estado com o nome 'games' e defina como inicialmente um array vazio
    */
