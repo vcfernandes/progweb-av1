@@ -39,18 +39,14 @@ function App() {
     <div className="grid grid-cols-6 gap-6 mt-16">
       {
 
-games.map((game: Game) => <GameBanner id={game.bannerUrl} title={game.title} adsCount={game._count.ads}/>)
+ games.map((game: Game) =><GameBanner id={game.bannerUrl} title={game.title} adsCount={game._count.ads}/>)
 
-        /**
-         * (2pt) use a variável de estado `games` obtida pela API:
-         *        - como condição para exibir apenas se game existir
-         *        - popular a página com a lista de jogos do tipo Game usando map
-         * (2pt) use o componente GameBanner para exibir cada jogo e modifique usando as seguintes props:
-         *        - key: chave única do objeto
-         *        - bannerUrl: contem a string da imagem do jogo
-         *        - title: contem a string do titulo do jogo
-         *        - adsCount: contém o número de ads de dentro de _count
-         */
+        
+        // (2pt) use a variável de estado `games` obtida pela API:
+         //       - como condição para exibir apenas se game existir
+         //      - popular a página com a lista de jogos do tipo Game usando map
+          
+
       }
    
 
